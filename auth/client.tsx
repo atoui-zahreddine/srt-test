@@ -5,7 +5,7 @@ import { SSRExchange } from '@urql/core/dist/types/exchanges/ssr';
 
 
 export const gqlClient = createClient({
-  url: process.env.NEXT_PUBLIC_GRAPHQL_URL!, 
+  url: "https://serotana-test-rb.onrender.com/graphql", 
   exchanges: [
     dedupExchange,
     cacheExchange,
